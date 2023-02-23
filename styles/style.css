@@ -61,15 +61,37 @@
 }
 .section-title {
   font-weight: 800;
-  font-size: 40px;
+  font-size: 50px;
 }
 
-.lists p{
-    padding: 5px 0;
-    font-size: 16px;
+.lists p {
+  padding: 5px 0;
+  font-size: 16px;
 }
 
-.lists img{
-    padding-right: 10px;
+.lists img {
+  padding-right: 10px;
 }
 
+/* my plans section */
+.plans-section {
+  text-align: center;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0;
+}
+
+.plan-title {
+  font-weight: 700;
+  font-size: 30px;
+  padding: 24px 0 16px;
+}
+
+.plan > p {
+  color: #737272;
+  font-weight: 500;
+  font-size: 25px;
+}
