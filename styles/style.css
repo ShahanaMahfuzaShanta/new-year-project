@@ -76,6 +76,7 @@
 /* my plans section */
 .plans-section {
   text-align: center;
+  margin: 130px 150px;
 }
 
 .plans {
@@ -100,19 +101,18 @@
 .call-section {
   background-image: linear-gradient(to right, #f15d22, rgba(245, 128, 11, 0)), url("../images/watch.png");
   background-repeat: no-repeat;
-  
-  width: 1140px;
-  height: 300px;
-  margin: 130px auto;
+  background-size: cover;
+  margin: 0px 150px;
   padding-left: 65px;
   border-radius: 8px;
+  height: 300px;
   display: flex;
   align-items: center;
 }
 
 .call-info{
   width: 459px;
-height: 182px;
+  height: 182px;
 }
 .call-info > *{
   margin-bottom: 25px;
@@ -127,6 +127,7 @@ footer {
   text-align: left;
   color: white;
   padding: 130px 230px;
+  margin-top: 130px;
 }
 
 .future {
