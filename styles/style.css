@@ -96,6 +96,28 @@
   font-size: 25px;
 }
 
+/* call now section */
+.call-section {
+  background-image: linear-gradient(to right, #f15d22, rgba(245, 128, 11, 0)), url("../images/watch.png");
+  background-repeat: no-repeat;
+  
+  width: 1140px;
+  height: 300px;
+  margin: 130px auto;
+  padding-left: 65px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.call-info{
+  width: 459px;
+height: 182px;
+}
+.call-info > *{
+  margin-bottom: 25px;
+}
+
 /* footer section */
 footer {
   background-color: #151414;
@@ -116,6 +138,7 @@ footer {
   font-weight: 700;
   font-size: 45px;
   line-height: 53px;
+  color: white;
 }
 
 .social-id {
@@ -141,6 +164,7 @@ footer {
 .white-button {
   width: 170px;
   height: 64px;
+  border: none;
   border-radius: 8px;
   font-weight: 600;
   font-size: 20px;
